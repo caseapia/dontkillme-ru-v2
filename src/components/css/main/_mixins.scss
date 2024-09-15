@@ -1,0 +1,31 @@
+@mixin button($background: #0d6efd, $hovereffect: #0d6efdb7, $focus: 0 0 0 0.25rem rgb(49 132 253 / 50%), $disabled: rgb(49 132 253 / 50%), $padding: .625rem) {
+    outline: 0;
+    padding: $padding;
+    background-color: $background;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    transition: .3s;
+    margin-right: 2rem;
+    color: white;
+        & {
+            &:enabled {
+                &:hover {
+                    background-color: $hovereffect;
+                }
+                &:active {
+                    transform: scale(.98);
+                }
+            }
+            &:disabled {
+                cursor: not-allowed;
+                background-color: $disabled;
+            }
+            &:focus-visible {
+                box-shadow: $focus;
+            }
+            svg {
+                margin-bottom: 4px;
+            }
+        }
+}
