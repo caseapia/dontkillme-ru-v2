@@ -4,8 +4,12 @@
     @include button;
 }
 .secondary {
-    @include button(rgba(128, 128, 128, 0.281), rgba(128, 128, 128, 0.363), 0 0 0 0.25rem rgba(128, 128, 128, 0.5), rgba(80, 80, 80, 0.205), .625rem);
+    @include button(rgba(128, 128, 128, 0.281), rgba(128, 128, 128, 0.363), 0 0 0 0.25rem rgba(128, 128, 128, 0.5), rgba(80, 80, 80, 0.205), .625rem, rgba(128, 128, 128, 0.363));
 }
 .no-border {
-    @include button(transparent, rgb(31 31 31 / 1), 0 0 0 0.25rem rgb(31 31 31 / 1), transparent, .500rem)
+    @include transparentButton()
+}
+.blured {
+    @include button(rgba(66, 66, 66, 0.281), rgba(88, 88, 88, 0.363), 0 0 0 0.25rem rgba(128, 128, 128, 0.5), rgba(80, 80, 80, 0.205), .625rem, rgba(128, 128, 128, 0.363));
+    backdrop-filter: blur(10px);
 }
