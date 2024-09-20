@@ -3,5 +3,5 @@ module.exports = {
     images: {
       unoptimized: true,
     },
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/dontkillme-ru-v2/' : '',
+    assetPrefix: '/dontkillme-ru-v2/',
   };
