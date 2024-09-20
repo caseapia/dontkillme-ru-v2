@@ -1,16 +1,4 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --background: white;
-        --text: rgb(0, 0, 0);
-    }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0e0e0e;
-        --text: white;
-    }
-}
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -26,31 +14,31 @@ body, html {
     height: 100%;
 }
 body {
-    font-family: "League Spartan", sans-serif;
-    font-size: 17px;
+    font-family: "League Spartan", sans-serif !important;
+    font-size: 17px !important;
     display: block;
-    background-size: cover;
-    background-repeat: repeat;
+    background-size: cover !important;
+    background-repeat: repeat !important;
     height: 100%;
     margin: 0;
     font-weight: 400;
-    padding: 0;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background: var(--background);
-    color: var(--text);
+    padding: 0 !important;
+    min-height: 100vh !important;
+    background-attachment: fixed !important;
+    background-color: #0e0e0e !important;
+    color: white !important ;
 }
 a {
-    color: #0088cc;
-    background-color: transparent;
-    text-decoration: none;
-    transition: .2s;
+    color: #0088cc !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    transition: .2s !important;
         &:visited {
-            text-decoration: underline !important;
+            text-decoration: underline !important ;
         }
         &:hover {
-            color: #ccc;
-            text-decoration: none;
-            cursor: pointer;
+            color: #ccc !important;
+            text-decoration: none !important;
+            cursor: pointer !important;
         }
 }

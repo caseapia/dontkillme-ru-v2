@@ -1,4 +1,3 @@
-import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/css/main/general.scss';
 

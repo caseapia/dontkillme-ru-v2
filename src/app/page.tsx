@@ -8,10 +8,10 @@ import { Container } from "react-bootstrap";
 import { BsDiscord } from "react-icons/bs";
 import Marquee from '../components/scripts/Marquee';
 import Image from 'next/image';
-import React from './assets/images/react.svg';
-import JavaScript from './assets/images/javascript.svg';
-import Bootstrap from './assets/images/bootstrap.svg';
-import CSS from './assets/images/css.svg';
+import React from '/assets/images/react.svg';
+import JavaScript from '/assets/images/javascript.svg';
+import Bootstrap from '/assets/images/bootstrap.svg';
+import CSS from '/assets/images/css.svg';
 import HTML from './assets/images/html.webp';
 import Next from './assets/images/next.svg';
 import SASS from './assets/images/sass.svg';
@@ -89,8 +89,7 @@ export default function Main() {
                                 <p>TRAINING CHECKER is a website for working with the server API in SAMP, which allows you to view publicly available player account data in a user-friendly interface.</p>
                                 <CardFooter>
                                     <div className="button-container centered">
-                                        <Blured text='Visit Website' icon={ <FaEarthEurope /> } />
-                                        <Blured text='Learn More' icon={ <FaBook /> } /> 
+                                        <a href='https://caseapia.github.io/trainingchecker/'><Blured text='Visit Website' icon={ <FaEarthEurope /> } /></a>
                                     </div>
                                 </CardFooter>
                             </Card>
