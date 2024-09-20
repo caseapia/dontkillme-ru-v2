@@ -1,6 +1,6 @@
 module.exports = {
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/dontkillme-ru-v2/' : '',
-    basePath: process.env.NODE_ENV === 'production' ? '/dontkillme-ru-v2' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '.' : '.',
+    basePath: process.env.NODE_ENV === 'production' ? '.' : '.',
     trailingSlash: true,
     output: 'export',
-  };
+};
