@@ -1,6 +1,7 @@
 module.exports = {
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/.' : '/.',
-    basePath: process.env.NODE_ENV === 'production' ? '/.' : '/.',
-    trailingSlash: true,
     output: 'export',
-};
+    images: {
+      unoptimized: true,
+    },
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/dontkillme-ru-v2/' : '',
+  };
