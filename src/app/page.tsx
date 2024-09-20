@@ -3,29 +3,29 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Secondary, Blured } from '../components/Button';
 import { FaYoutube, FaDiscord, FaGithub, FaEarthEurope, FaBook } from "react-icons/fa6";
-import './css/page.scss'
+import '/css/page.scss'
 import { Container } from "react-bootstrap";
 import { BsDiscord } from "react-icons/bs";
 import Marquee from '../components/scripts/Marquee';
 import Image from 'next/image';
-import React from './assets/images/react.svg';
-import JavaScript from './assets/images/javascript.svg';
-import Bootstrap from './assets/images/bootstrap.svg';
-import CSS from './assets/images/css.svg';
-import HTML from './assets/images/html.webp';
-import Next from './assets/images/next.svg';
-import SASS from './assets/images/sass.svg';
-import Tailwind from './assets/images/tailwind.svg';
-import Vite from './assets/images/vite.svg';
-import TypeScript from './assets/images/typescript.svg';
-import Cloudflare from './assets/images/cloudflare.svg';
-import VSC from './assets/images/vscode.svg';
-import xenForo from './assets/images/xenForo.svg';
-import Git from './assets/images/git.svg';
-import GitHub from './assets/images/github.svg';
-import NPM from './assets/images/npm.svg';
+import React from '/assets/images/react.svg';
+import JavaScript from '/assets/images/javascript.svg';
+import Bootstrap from '/assets/images/bootstrap.svg';
+import CSS from '/assets/images/css.svg';
+import HTML from '/assets/images/html.webp';
+import Next from '/assets/images/next.svg';
+import SASS from '/assets/images/sass.svg';
+import Tailwind from '/assets/images/tailwind.svg';
+import Vite from '/assets/images/vite.svg';
+import TypeScript from '/assets/images/typescript.svg';
+import Cloudflare from '/assets/images/cloudflare.svg';
+import VSC from '/assets/images/vscode.svg';
+import xenForo from '/assets/images/xenForo.svg';
+import Git from '/assets/images/git.svg';
+import GitHub from '/assets/images/github.svg';
+import NPM from '/assets/images/npm.svg';
 import { Card, CardHeader, CardFooter, CardImage } from '../components/Card';
-import tchecker from './assets/images/trainingchecker.svg'
+import tchecker from '/assets/images/trainingchecker.svg'
 
 export default function Main() {
     
