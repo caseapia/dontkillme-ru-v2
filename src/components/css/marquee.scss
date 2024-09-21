@@ -32,8 +32,8 @@
     align-items: center;
     border-radius: 10px;
     transition: .2s;
-}
-.marquee-container__item:hover {
-    background-color: rgb(70, 70, 70);
-    cursor: pointer;
+        &:hover {
+            background-color: rgb(70, 70, 70);
+            cursor: pointer;
+        }
 }
