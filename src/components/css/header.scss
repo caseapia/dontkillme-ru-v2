@@ -42,3 +42,12 @@ header {
     font-size: 20px;
     margin-bottom: 2px !important;
 }
+@media screen and (max-width: 767px) {
+    header {
+        max-width: 97%;
+        white-space: nowrap;
+            .src {
+                display: none;
+            }
+    }
+}

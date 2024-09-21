@@ -52,27 +52,27 @@ export default function Main() {
                             <div className="insidecontainer__item">
                                 <h3>Frontend</h3>
                                 <Marquee pauseOnHover speed={100}>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://react.dev/', '_blank')}><Image src={ React } alt='' width={30} /> React</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><Image src={ JavaScript } alt='' width={30} /> JavaScript</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://www.typescriptlang.org/', '_blank')}><Image src={ TypeScript } alt='' width={30} /> TypeScript</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://www.w3schools.com/html/', '_blank')}><Image src={ HTML } alt='' width={30} /> HTML</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://www.w3schools.com/css/', '_blank')}><Image src={ CSS } alt='' width={30} /> CSS</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://sass-lang.com/', '_blank')}><Image src={ SASS } alt='' width={30} /> SCSS</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://getbootstrap.com/', '_blank')}><Image src={ Bootstrap } alt='' width={30} /> Bootstrap</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://tailwindcss.com/', '_blank')}><Image src={ Tailwind } alt='' width={30} /> Tailwind</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://vitejs.dev/', '_blank')}><Image src={ Vite } alt='' width={25} /> Vite</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://nextjs.org/', '_blank')}><Image src={ Next } alt='' width={25} /> NextJS</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://react.dev/', '_blank')}><Image src={ React } alt='' width={30} draggable={false} /> React</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><Image src={ JavaScript } alt='' width={30} draggable={false} /> JavaScript</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://www.typescriptlang.org/', '_blank')}><Image src={ TypeScript } alt='' width={30} draggable={false} /> TypeScript</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://www.w3schools.com/html/', '_blank')}><Image src={ HTML } alt='' width={30} draggable={false} /> HTML</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://www.w3schools.com/css/', '_blank')}><Image src={ CSS } alt='' width={30} draggable={false} /> CSS</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://sass-lang.com/', '_blank')}><Image src={ SASS } alt='' width={30} draggable={false} /> SCSS</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://getbootstrap.com/', '_blank')}><Image src={ Bootstrap } alt='' width={30} draggable={false} /> Bootstrap</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://tailwindcss.com/', '_blank')}><Image src={ Tailwind } alt='' width={30} draggable={false} /> Tailwind</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://vitejs.dev/', '_blank')}><Image src={ Vite } alt='' width={25} draggable={false} /> Vite</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://nextjs.org/', '_blank')}><Image src={ Next } alt='' width={25} draggable={false} /> NextJS</div>
                                 </Marquee>
                             </div>
                             <div className="insidecontainer__item">
                                 <h3>Other Technologies</h3>
                                 <Marquee pauseOnHover speed={100}>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://www.cloudflare.com/', '_blank')}><Image src={ Cloudflare } alt='' width={30} /> Cloudflare</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://code.visualstudio.com/', '_blank')}><Image src={ VSC } alt='' width={30} /> Visual Studio Code</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://xenforo.com/', '_blank')}><Image src={ xenForo } alt='' width={30} /> xenForo</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://git-scm.com/', '_blank')}><Image src={ Git } alt='' width={30} /> Git</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://github.com/', '_blank')}><Image src={ GitHub } alt='' width={30} /> GitHub</div>
-                                    <div className="marquee-container__item" onClick={() => window.open('https://www.npmjs.com/', '_blank')}><Image src={ NPM } alt='' width={30} /> NPM</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://www.cloudflare.com/', '_blank')}><Image src={ Cloudflare } alt='' width={30} draggable={false} /> Cloudflare</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://code.visualstudio.com/', '_blank')}><Image src={ VSC } alt='' width={30} draggable={false} /> Visual Studio Code</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://xenforo.com/', '_blank')}><Image src={ xenForo } alt='' width={30} draggable={false} /> xenForo</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://git-scm.com/', '_blank')}><Image src={ Git } alt='' width={30} draggable={false} /> Git</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://github.com/', '_blank')}><Image src={ GitHub } alt='' width={30} draggable={false} /> GitHub</div>
+                                    <div className="marquee-container__item" onClick={() => window.open('https://www.npmjs.com/', '_blank')}><Image src={ NPM } alt='' width={30} draggable={false} /> NPM</div>
                                 </Marquee>
                             </div>
                         </div>

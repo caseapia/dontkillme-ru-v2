@@ -41,5 +41,8 @@
                     margin-bottom: 2px;
                     margin-right: 10px;
                 }
+                &:active {
+                    transform: scale(.98);
+                }
         }
 }

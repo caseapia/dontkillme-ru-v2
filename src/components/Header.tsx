@@ -19,7 +19,7 @@ export default function Header() {
                     <div className="header-links__item">
                         <Link href="#projects"><NoBorder text='Projects' icon={ <GrProjects /> } /></Link>
                     </div>
-                    <div className="header-links__item src">
+                    <div className="header-links__item src" id='src'>
                         <a href="" target="_blank" rel="noopener noreferrer"><NoBorder icon={ <FaGithub /> } className='source' text='Source' /></a>
                     </div>
                 </div>

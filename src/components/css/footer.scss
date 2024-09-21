@@ -1,15 +1,5 @@
-.container {
+footer {
     display: flex;
-    flex-direction: column;
-    height: 140vh;
-}
-.content {
-    flex: 1;
-}
-.footer-container {
-    text-align: center;
-    margin-top: auto;
-        .p__muted {
-            opacity: .5;
-        }
+    justify-content: center;
+    margin-top: 1rem;
 }
