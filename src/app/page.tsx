@@ -3,10 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Secondary, Blured } from '../components/Button';
 import { FaYoutube, FaDiscord, FaGithub, FaEarthEurope, FaBook } from "react-icons/fa6";
-import './css/page.scss'
+import './css/page.scss';
+import './css/marquee.scss';
 import { Container } from "react-bootstrap";
 import { BsDiscord } from "react-icons/bs";
-import Marquee from '../components/scripts/Marquee';
+import Marquee from "react-fast-marquee";
 import Image from 'next/image';
 import React from '../../public/images/react.svg';
 import JavaScript from '../../public/images/javascript.svg';
@@ -50,7 +51,7 @@ export default function Main() {
                         <div className="insidecontainer">
                             <div className="insidecontainer__item">
                                 <h3>Frontend</h3>
-                                <Marquee>
+                                <Marquee pauseOnHover speed={100}>
                                     <div className="marquee-container__item" onClick={() => window.open('https://react.dev/', '_blank')}><Image src={ React } alt='' width={30} /> React</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><Image src={ JavaScript } alt='' width={30} /> JavaScript</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://www.typescriptlang.org/', '_blank')}><Image src={ TypeScript } alt='' width={30} /> TypeScript</div>
@@ -65,7 +66,7 @@ export default function Main() {
                             </div>
                             <div className="insidecontainer__item">
                                 <h3>Other Technologies</h3>
-                                <Marquee>
+                                <Marquee pauseOnHover speed={100}>
                                     <div className="marquee-container__item" onClick={() => window.open('https://www.cloudflare.com/', '_blank')}><Image src={ Cloudflare } alt='' width={30} /> Cloudflare</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://code.visualstudio.com/', '_blank')}><Image src={ VSC } alt='' width={30} /> Visual Studio Code</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://xenforo.com/', '_blank')}><Image src={ xenForo } alt='' width={30} /> xenForo</div>

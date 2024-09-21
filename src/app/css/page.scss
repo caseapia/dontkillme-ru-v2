@@ -102,53 +102,6 @@ h1 {
                 }
         }
 }
-.marque-item {
-    display: inline-block;
-    margin-right: 1rem;
-    padding: .5rem;
-    background-color: rgb(49, 49, 49);
-    backdrop-filter: blur(10px) !important;
-    border: 1px solid rgb(51 51 51 / 1);
-    border-width: 1px;
-    align-items: center;
-    border-radius: 10px;
-    transition: .2s;
-        &:hover {
-           background-color: rgb(70, 70, 70);
-           cursor: pointer;
-        }
-}
-.marquee-container {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    padding: 2px;
-    width: 25.1875rem;
-        &__item {
-            display: flex;
-            vertical-align: middle;
-            margin-right: 1rem;
-            padding: .5rem;
-            background-color: rgb(49, 49, 49);
-            backdrop-filter: blur(10px) !important;
-            border: 1px solid rgb(51 51 51 / 1);
-            border-width: 1px;
-            align-items: center;
-            border-radius: 10px;
-            transition: .2s;
-            height: 2.7rem;
-                &:hover {
-                    background-color: rgb(70, 70, 70);
-                    cursor: pointer;
-                }
-                img {
-                    margin-bottom: 2px;
-                }
-        }
-}
-.oth {
-    animation: marqueeoth 15s linear infinite !important;
-}
 .centered {
     display: flex;
     justify-content: center;
