@@ -51,8 +51,8 @@ export default function Main() {
                             <div className="insidecontainer__item">
                                 <h3>Frontend</h3>
                                 <Marquee>
-                                    <div className="marquee-container__item"><Image src={ React } alt='' width={30} /> React</div>
-                                    <div className="marquee-container__item"><Image src={ JavaScript } alt='' width={30} /> JavaScript</div>
+                                    <div className="marquee-container__item"><Image src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/assets/images/react.svg`} alt='' width={30} /> React</div>
+                                    <div className="marquee-container__item"><Image src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/assets/images/javascript.svg`} alt='' width={30} /> JavaScript</div>
                                     <div className="marquee-container__item"><Image src={ TypeScript } alt='' width={30} /> TypeScript</div>
                                     <div className="marquee-container__item"><Image src={ HTML } alt='' width={30} /> HTML</div>
                                     <div className="marquee-container__item"><Image src={ CSS } alt='' width={30} /> CSS</div>

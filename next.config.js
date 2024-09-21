@@ -1,7 +1,7 @@
 module.exports = {
-    output: 'export',
-    images: {
+  output: 'export',
+  images: {
       unoptimized: true,
-    },
-    assetPrefix: '/dontkillme-ru-v2/',
-  };
+  },
+  assetPrefix: '/dontkillme-ru-v2/',
+};
