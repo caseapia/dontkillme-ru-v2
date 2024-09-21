@@ -11,6 +11,8 @@ export default function RootLayout({
             <head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Dontkillme.ru</title>
+                <meta property="og:title" content="Dontkillme.ru" key="title" />
             </head>
             <body>
                 {children}
