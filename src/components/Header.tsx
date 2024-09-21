@@ -11,7 +11,7 @@ export default function Header() {
             <div className="header">
                 <div className="header-links">
                     <div className="header-links__item">
-                        <Link href="#about"><NoBorder text='About this site' icon={ <TiWorld className='web-icon' /> } /></Link>
+                        <Link href="#aboutSite"><NoBorder text='About this site' icon={ <TiWorld className='web-icon' /> } /></Link>
                     </div>
                     <div className="header-links__item">
                         <Link href="#about"><NoBorder text='About' icon={ <FaBook /> } /></Link>
