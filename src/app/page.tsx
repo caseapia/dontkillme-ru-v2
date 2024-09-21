@@ -90,7 +90,7 @@ export default function Main() {
                                 <p>TRAINING CHECKER is a website for working with the server API in SAMP, which allows you to view publicly available player account data in a user-friendly interface.</p>
                                 <CardFooter>
                                     <div className="button-container centered">
-                                        <a href='https://caseapia.github.io/trainingchecker/'><Blured text='Visit Website' icon={ <FaEarthEurope /> } /></a>
+                                        <a href='https://caseapia.github.io/trainingchecker/' target='_blank'><Blured text='Visit Website' icon={ <FaEarthEurope /> } /></a>
                                     </div>
                                 </CardFooter>
                             </Card>
