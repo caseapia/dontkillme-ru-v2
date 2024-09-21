@@ -65,7 +65,7 @@ export default function Main() {
                             </div>
                             <div className="insidecontainer__item">
                                 <h3>Other Technologies</h3>
-                                <Marquee className='oth'>
+                                <Marquee>
                                     <div className="marquee-container__item" onClick={() => window.open('https://www.cloudflare.com/', '_blank')}><Image src={ Cloudflare } alt='' width={30} /> Cloudflare</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://code.visualstudio.com/', '_blank')}><Image src={ VSC } alt='' width={30} /> Visual Studio Code</div>
                                     <div className="marquee-container__item" onClick={() => window.open('https://xenforo.com/', '_blank')}><Image src={ xenForo } alt='' width={30} /> xenForo</div>
