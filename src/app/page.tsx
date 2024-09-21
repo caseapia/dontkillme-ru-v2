@@ -8,24 +8,24 @@ import { Container } from "react-bootstrap";
 import { BsDiscord } from "react-icons/bs";
 import Marquee from '../components/scripts/Marquee';
 import Image from 'next/image';
-import React from './assets/images/react.svg';
-import JavaScript from './assets/images/javascript.svg';
-import Bootstrap from './assets/images/bootstrap.svg';
-import CSS from './assets/images/css.svg';
-import HTML from './assets/images/html.webp';
-import Next from './assets/images/next.svg';
-import SASS from './assets/images/sass.svg';
-import Tailwind from './assets/images/tailwind.svg';
-import Vite from './assets/images/vite.svg';
-import TypeScript from './assets/images/typescript.svg';
-import Cloudflare from './assets/images/cloudflare.svg';
-import VSC from './assets/images/vscode.svg';
-import xenForo from './assets/images/xenForo.svg';
-import Git from './assets/images/git.svg';
-import GitHub from './assets/images/github.svg';
-import NPM from './assets/images/npm.svg';
+import React from '../../public/images/react.svg';
+import JavaScript from '../../public/images/javascript.svg';
+import Bootstrap from '../../public/images/bootstrap.svg';
+import CSS from '../../public/images/css.svg';
+import HTML from '../../public/images/html.webp';
+import Next from '../../public/images/next.svg';
+import SASS from '../../public/images/sass.svg';
+import Tailwind from '../../public/images/tailwind.svg';
+import Vite from '../../public/images/vite.svg';
+import TypeScript from '../../public/images/typescript.svg';
+import Cloudflare from '../../public/images/cloudflare.svg';
+import VSC from '../../public/images/vscode.svg';
+import xenForo from '../../public/images/xenForo.svg';
+import Git from '../../public/images/git.svg';
+import GitHub from '../../public/images/github.svg';
+import NPM from '../../public/images/npm.svg';
 import { Card, CardHeader, CardFooter, CardImage } from '../components/Card';
-import tchecker from './assets/images/trainingchecker.svg'
+import tchecker from '../../public/images/trainingchecker.svg'
 
 export default function Main() {
     
@@ -51,8 +51,8 @@ export default function Main() {
                             <div className="insidecontainer__item">
                                 <h3>Frontend</h3>
                                 <Marquee>
-                                    <div className="marquee-container__item"><Image src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/assets/images/react.svg`} alt='' width={30} /> React</div>
-                                    <div className="marquee-container__item"><Image src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/assets/images/javascript.svg`} alt='' width={30} /> JavaScript</div>
+                                    <div className="marquee-container__item"><Image src={ React } alt='' width={30} /> React</div>
+                                    <div className="marquee-container__item"><Image src={ JavaScript } alt='' width={30} /> JavaScript</div>
                                     <div className="marquee-container__item"><Image src={ TypeScript } alt='' width={30} /> TypeScript</div>
                                     <div className="marquee-container__item"><Image src={ HTML } alt='' width={30} /> HTML</div>
                                     <div className="marquee-container__item"><Image src={ CSS } alt='' width={30} /> CSS</div>
